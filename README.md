@@ -1,4 +1,3 @@
-metalabz.github.com
-===================
+Website, nothing to see here.
 
-metalabz
+© 2013 Metalabz All rights reserved.
