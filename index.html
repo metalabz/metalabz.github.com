@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>metaLabz.com - where system and development meet</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="MetaLabz is a software engineering company
+    based in Paris, France. At MetaLabz, we design scalable applications and
+    automated infrastructures. We help our customers in all phases of their
+    project : we recommend, we design, we develop and we host.">
+    <meta name="author" content="Yann Leger and Bastien Chatelard">
+
+    <!-- Le styles -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+    <link href="assets/css/main.css" rel="stylesheet">
+    <link href="assets/css/font-awesome.min.css" rel="stylesheet">
+	<link rel='stylesheet' id='prettyphoto-css'  href="assets/css/prettyPhoto.css" type='text/css' media='all'>
+  	
+  	<!-- Google Fonts call. Font Used Open Sans & Poly -->
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Poly' rel='stylesheet' type='text/css'>    
+	<style>
+      body {
+        padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
+      }
+    </style>
+    <link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Le favicons -->
+    <link rel="shortcut icon" href="assets/ico/favicon.32.png">
+    <link rel="icon" href="assets/ico/favicon.32.png">
+    <!-- Le fav and touch icons
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png">
+    Le fav and touch icons -->
+
+    <!-- JQuery -->
+    <script type="text/javascript" src="assets/js/jquery.js"></script>
+    <script type="text/javascript" src="assets/js/i18next-1.6.0.min.js"></script>
+	<script type="text/javascript" charset="utf-8">
+      translation = {
+        en: {
+          translation: { home: "Home" } 
+        },
+        fr: {
+          translation: { home: "Accueil" } 
+        }
+      };
+	  $(document).ready(function(){
+        i18n.init({resStore : translation});
+        $("body").i18n();
+	  });
+	</script>
+
+  	<!-- prettyPhoto Initialization -->
+	<script type="text/javascript" charset="utf-8">
+	  $(document).ready(function(){
+	    $("a[rel^='prettyPhoto']").prettyPhoto();
+	  });
+	</script>
+  
+  
+  </head>
+
+  <body data-spy="scroll" data-target=".navbar">
+  
+    <!-- Navigation Bar -->
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </a>
+          <a class="brand" href="#home"><img src="assets/img/text-white.png"></a>
+          <div class="nav-collapse collapse">
+            <ul class="nav">
+              <li class="active"><a href="#home" data-i18n="home">Home</a></li>
+              <li><a href="#services">Services</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div>
+      </div>
+    </div>
+    <section id="home"></section>
+
+    <!-- Header Image and Logo -->
+	<div id="headerwrap">
+  		<header class="clearfix">
+            <div class="row-fluid">
+  		 	    <div class="span12">
+  		 	    	<img src="assets/img/logo.png">
+  			    </div>
+  			</div>
+  		</header>
+	</div>
+	
+    <!-- Welcome -->
+	<div id="welcomewrap">
+		<header class="clearfix">
+            <div class="row-fluid">
+			<div class="span12">
+				<h2>Where system and development meet.</h2>
+			</div>
+			</div>
+		</header>
+	</div>
+
+    <!-- Section Services Begins -->
+	<section id="services"><br><br></section>
+
+	<div id="servicewrap">
+		<div class="container">
+			<h2>OUR SERVICES</h2>
+			<br>
+			<div class="row">
+				<div class="span3">
+					<div class="mask">
+						<img src="assets/img/step1.png" alt="">
+						<h4>Consulting</h4>
+						<p>We begin with simple questions: What is your
+                        product? What do you want to achieve?
+                        How strategic is IT in your business ?
+                        We explore your needs and find the right technologies
+                        for your project.</p>
+					</div>
+				</div><!-- span3 -->
+				
+				<div class="span3">
+					<div class="mask">
+						<img src="assets/img/step2.png" alt="">
+						<h4>Design</h4>
+                        <p>This is where the engineering begins.
+                        An application quality hinges upon two things: a well
+                        designed software and a reliable infrastructure. We create a strategic plan that outlines what we will make together, how make the most of your budget and what success looks like.</p>
+					</div>
+				</div><!-- span3 -->
+				
+				<div class="span3">
+					<div class="mask">
+						<img src="assets/img/step3.png" alt="">
+						<h4>Development</h4>
+						<p>We work hard to offer you the best quality for your
+                        application. We start loose, develop parts of your
+                        product, iterate,
+                        and refine them through regular dialogue with you. At
+                        the end you get a thoroughly tested and maintenable
+                        software created with the best technologies of the moment.</p>
+					</div>
+				</div><!-- span3 -->
+
+				<div class="span3">
+					<div class="mask">
+						<img src="assets/img/step4.png" alt="">
+						<h4>Launch</h4>
+						<p>For us, this means a reliable automated and scalable
+                        infrastructure. We choose the
+                        right hosting solutions for you and ensure that your
+                        webapp is always up and running.</p>
+					</div>
+				</div><!-- span3 -->
+			</div><!-- row -->
+		</div><!-- container -->
+	</div><!-- servicewrap -->
+
+	<!-- Introduction Text and Responsive Image -->
+    
+    <!-- Single Item Image -->
+    <div id="example">
+    <div class="container">
+    	<div class="row">
+    		<br>
+    		<br>
+    		<div class="span6">
+    			<h1>WE ARE META</h1>
+    			<h2>We design scalable applications and
+                        automated infrastructures.
+                        MetaLabz is a software
+                        engineering company based in Paris, France.</h2>
+                <p>We are hackers and we understand business values.
+                We choose the right technologies, react fast and efficiently.
+                We create and innovate to adapt to your needs, we are where you
+                want us to be.
+                We want the app that we build to succeed.
+                We want your success.</p>
+    		</div><!-- span6 -->
+    		
+    		<div class="span6 text-center">
+                <i class="icon-cloud-upload" style="font-size: 280px;"></i>
+    		</div><!-- span6 -->
+    	</div><!-- row -->
+		<br>
+		<br>
+    </div> <!-- /container -->
+    </div><!-- example -->
+	
+	<!-- About Section Begins -->		
+    	<section id="about"><br><br></section>
+    	<div id="aboutwrap">
+    		<div class="container">
+				<h2>ABOUT US</h2>
+				<br>
+				<div class="row">
+					<div class="span4">
+						<img src="assets/img/logo_black.png" alt="" width="180px">
+						<h3>Meet the founders</h3>
+						<h4>The company was founded in September 2012. The
+                                founders are brilliant engineers.</h4>
+					</div><!-- span4 -->
+
+					<div class="span4">
+						<div class="about_item">
+							<div class="about_item_center">
+								<div class="clear"></div>
+				                <h3>Yann</h3>
+				                <p>Yann is a talented system & network engineer
+                                and a big cloud computing fan.
+                                His heart beats alternatively for system
+                                and software engineering.
+                                He loves snowboarding, but Paris lacks a little
+                                bit of snow and mountain.
+                                </p>
+                                <p>Yann studied IT in France and in California, USA.
+                                While in California, he had the
+                                opportunity to study entrepreneurship.
+                                Having worked with cloud startups in France and in
+                                the US, he realized that system and development
+                                where too often disconnected.
+                                MetaLabz was born.
+                                </p>
+							</div>
+						</div><!-- about_item -->
+					</div><!-- span4 -->
+
+					<div class="span4">
+						<div class="about_item">
+							<div class="about_item_center">
+								<div class="clear"></div>
+				                <h3>Bastien</h3>
+                                <p>
+                                Bastien is a sharp software engineer and web
+                                fanatic. He loves being challenged and is
+                                always pushing the boundaries of new technologies.
+                                He enjoys getting away from the office to shoot some pictures in Paris and
+                                to discover historical places.
+                                </p>
+				                <p>Bastien studied IT in France and in the
+                                UK. Always looking for challenge, he
+                                realized that the startup world was made for
+                                him. After some work with french startups,
+                                he decided that it was his turn to help France
+                                innovate. MetaLabz was born.</p>
+
+							</div>
+						</div><!-- about_item -->
+					</div><!-- span4 -->
+					
+				</div><!-- End Row -->
+    		</div><!-- End aboutwrap -->
+		</div><!-- End Container -->
+		
+
+	<!-- Portfolio Carousel -->
+		<div id="example">
+			<div class="container">
+				<div class="row">
+					<div class="span2"></div>
+					<div class="span8">
+						<br>
+						<h2>A small look at our work</h2>
+						<div id="myCarousel2" class="carousel slide">
+					        <div class="carousel-inner">
+		          				<div class="item active">
+		            			<img src="assets/img/pres01.png" alt="">
+		          				</div>
+		          				<div class="item">
+		            			<img src="assets/img/pres02.png" alt="">
+		          				</div>
+		          				<div class="item">
+		            			<img src="assets/img/pres03.png" alt="">
+		          				</div>
+		        			</div>
+		        			<a class="left carousel-control" href="#myCarousel2" data-slide="prev">&lsaquo;</a>
+		        			<a class="right carousel-control" href="#myCarousel2" data-slide="next">&rsaquo;</a>
+						</div><!-- myCarousel2 -->
+					</div><!-- span8 -->
+					<div class="span2"></div>
+				</div><!-- row -->
+			</div><!-- container -->
+		</div><!-- example -->
+
+	<!-- Contact Section Begins -->
+		<section id="contact"></section>
+
+		<div id="footerwrap">
+			<div class="container">
+			<br>
+			<h2>CONTACT</h2>
+				<div class="row">
+					<div class="span4 offset2">
+						<img src="assets/img/logo_small.png" alt="">
+					</div>
+					<div class="span4">
+                            <br/>
+						<h4>Creative Valley, France</h4>
+						<h4>contact@metalabz.com</h4>
+					</div><!-- span4 -->
+				</div><!-- row -->
+			</div><!-- container -->
+		</div><!-- footerwrap -->
+
+	<!-- Bottom Map -->
+    <div id="map">
+            <iframe width="100%" height="500" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
+                    src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=11+Rue+Carnot,+Le+Kremlin-Bic%C3%AAtre,+France&amp;sll=48.815144,2.361031&amp;sspn=0.017379,0.044117&amp;ie=UTF8&amp;hq=&amp;hnear=11+Rue+Carnot,+94270+Le+Kremlin-Bic%C3%A8tre,+Val-de-Marne,+%C3%8Ele-de-France,+France&amp;t=m&amp;ll=48.816981,2.365751&amp;spn=0.019781,0.017166&amp;z=14&amp;iwloc=A&amp;output=embed">
+            </iframe>
+        </div>
+
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script type="text/javascript" src="assets/js/bootstrap.js"></script>
+	<script type="text/javascript" src="assets/js/jquery.prettyPhoto.js"></script>
+    <script type="text/javascript" src="assets/js/theme.js"></script>
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-39902566-1', 'metalabz.com');
+  ga('send', 'pageview');
+
+</script>
+   
+
+  </body>
+</html>
